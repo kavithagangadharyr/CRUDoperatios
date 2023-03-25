@@ -1,0 +1,47 @@
+
+.App {
+  text-align: center;
+}
+
+.taskBg .done .taskText {
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+
+.taskBg {
+  background-color: green;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 10px 140px 10px 15px;
+  text-align: left;
+  font-size: 22px;
+  position: relative;
+}
+
+/* icons to the left most part if the section */
+.iconsWrap {
+  position: absolute;
+  top: 50%;
+  padding: 5px;
+  transform: translateY(-50%);
+  right: 15px;
+  width: auto;
+  display: inline-block;
+}
+
+.iconsWrap span {
+  display: inline-block;
+  margin: 0px 10px 0 10px;
+  cursor: pointer;
+  color: aquamarine;
+}
+
+.addItemDiv {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.col {
+  padding: 5px;
+}
